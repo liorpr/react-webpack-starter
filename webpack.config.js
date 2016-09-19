@@ -22,8 +22,6 @@ module.exports = {
     },
     devServer   : {
         contentBase         : "./public/",
-        colors              : true,
-        historyApiFallback  : true,
-        inline              : true
+        historyApiFallback  : true
     }
 };
